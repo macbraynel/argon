@@ -1,5 +1,10 @@
 // initialize Argon
 var app = Argon.init();
+var Cesium = Argon.Cesium;
+var Cartesian3 = Argon.Cesium.Cartesian3;
+var ReferenceFrame = Argon.Cesium.ReferenceFrame;
+var JulianDate = Argon.Cesium.JulianDate;
+var CesiumMath = Argon.Cesium.CesiumMath;
 app.context.setDefaultReferenceFrame(app.context.localOriginEastUpSouth);
 
 // initialize THREE
